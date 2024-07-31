@@ -1,0 +1,30 @@
+/* App.css */
+.background {
+  background-image: url('/public/images/1d.jpg');
+  background-size: cover; /* Make sure the background covers the entire area */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  min-height: 100vh; /* Ensure it covers the full height of the viewport */
+  color: #fff; /* Adjust text color for contrast */
+  padding: 20px; /* Add some padding */
+}
+
+.background h1,
+.background h2,
+.background h3,
+.background h4,
+.background h5,
+.background h6,
+.background p,
+.background span,
+.background div,
+.background a {
+  font-weight: bold; /* Make the text bold */
+  color: #fff; /* Make the text color white */
+}
+
+.font{
+  font-weight: bold; /* Make the text bold */
+  color: #fff; 
+  
+}
